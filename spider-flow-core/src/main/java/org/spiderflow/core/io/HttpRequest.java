@@ -1,13 +1,15 @@
 package org.spiderflow.core.io;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Map;
-
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
+
+
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Map;
 
 /**
  * 请求对象包装类
@@ -116,6 +118,7 @@ public class HttpRequest {
 	public HttpRequest validateTLSCertificates(boolean value){
 		this.connection.validateTLSCertificates(value);
 		return this;
+
 	}
 	
 	public HttpResponse execute() throws IOException{
