@@ -29,7 +29,7 @@ public class SpiderApplication implements ServletContextInitializer{
 		//设置文本缓存1M
 		servletContext.setInitParameter("org.apache.tomcat.websocket.textBufferSize", Integer.toString((1024 * 1024)));
 	}
-	
+
 	@Bean
     public PaginationInterceptor paginationInterceptor() {
         return new PaginationInterceptor();
