@@ -14,7 +14,7 @@
 [介绍](#介绍) | [特性](#特性) | [插件](#插件) | <a target="_blank" href="http://demo.spiderflow.org">DEMO站点</a> | <a target="_blank" href="https://www.spiderflow.org">文档</a> | <a target="_blank" href="https://www.spiderflow.org/changelog.html">更新日志</a> | [截图](#项目部分截图) | [其它开源](#其它开源项目) | [免责声明](#免责声明)
 
 ## 介绍
-平台以流程图的方式定义爬虫,是一个高度灵活可配置的爬虫平台
+平台以流程图的方式定义爬虫,是一个高度灵活可配置的爬虫平台。对作者nekolr的一些插件等进行更改，使其更适合自己的使用场景。
 
 ## 特性
 - [x] 支持Xpath/JsonPath/css选择器/正则提取/混搭提取
